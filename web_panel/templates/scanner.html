@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block title %}Escáner Terminal - QR Access Control PRO{% endblock %}
+{% block page_title %}Terminal de Acceso{% endblock %}
+
+{% block content %}
+<div class="scanner-container">
+    <div class="card slide-up">
+        <div class="chart-title" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Lector de Código QR</span>
+            <span class="badge badge-info" id="cam-status">Cámara Inactiva</span>
+        </div>
+        
+        <div style="background: #000; border-radius: var(--radius-sm); position: relative; overflow: hidden; margin: 20px 0;">
+            <div id="reader"></div>
+            
+            <div id="scanner-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.5); z-index: 10; cursor: pointer;">
+                <button class="btn btn-primary" id="btn-start">Iniciar Cámara</button>
+            </div>
+        </div>
+
+        <div class="filter-footer" style="justify-content: center;">
+            <button class="btn btn-danger" id="btn-stop" style="display: none;">Detener Escáner</button>
+        </div>
+
+        <div id="result-panel" class="scanner-status idle">
+            Esperando escaneo...
+        </div>
+    </div>
+
+    <!-- Instructions / Info -->
+    <div class="card slide-up" style="margin-top: 24px; animation-delay: 0.2s;">
+        <div class="chart-title">Último Acceso Detectado</div>
+        <div id="last-scan-details" style="display: none;">
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div id="scan-avatar" class="user-avatar" style="width: 50px; height: 50px; font-size: 1.2rem;">?</div>
+                <div>
+                    <div id="scan-name" style="font-weight: 700; font-size: 1.1rem;">-</div>
+                    <div id="scan-company" style="color: var(--text-muted); font-size: 0.85rem;">-</div>
+                </div>
+                <div id="scan-badge" style="margin-left: auto;"></div>
+            </div>
+        </div>
+        <div id="no-scan-msg" style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 10px;">
+            No se han registrado escaneos en esta sesión.
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const html5QrCode = new Html5Qrcode("reader");
+    const btnStart = document.getElementById('btn-start');
+    const btnStop = document.getElementById('btn-stop');
+    const scannerOverlay = document.getElementById('scanner-overlay');
+    const resultPanel = document.getElementById('result-panel');
+    const camStatus = document.getElementById('cam-status');
+    
+    const lastScanPanel = document.getElementById('last-scan-details');
+    const noScanMsg = document.getElementById('no-scan-msg');
+    
+    let isScanning = false;
+
+    const startScanner = async () => {
+        try {
+            isScanning = true;
+            btnStart.disabled = true;
+            scannerOverlay.style.display = 'none';
+            btnStop.style.display = 'inline-flex';
+            camStatus.textContent = 'Buscando cámara...';
+            camStatus.className = 'badge badge-warning';
+
+            await html5QrCode.start(
+                { facingMode: "environment" },
+                {
+                    fps: 10,
+                    qrbox: { width: 250, height: 250 }
+                },
+                onScanSuccess
+            );
+
+            camStatus.textContent = 'Cámara Activa';
+            camStatus.className = 'badge badge-success';
+        } catch (err) {
+            console.error("Error starting scanner:", err);
+            isScanning = false;
+            btnStart.disabled = false;
+            scannerOverlay.style.display = 'flex';
+            btnStop.style.display = 'none';
+            camStatus.textContent = 'Error de Cámara';
+            camStatus.className = 'badge badge-danger';
+            alert("No se pudo acceder a la cámara. Asegúrate de dar permisos.");
+        }
+    };
+
+    const stopScanner = async () => {
+        if (!isScanning) return;
+        try {
+            await html5QrCode.stop();
+            isScanning = false;
+            btnStop.style.display = 'none';
+            scannerOverlay.style.display = 'flex';
+            btnStart.disabled = false;
+            camStatus.textContent = 'Cámara Inactiva';
+            camStatus.className = 'badge badge-info';
+        } catch (err) {
+            console.error("Error stopping scanner:", err);
+        }
+    };
+
+    const onScanSuccess = async (decodedText) => {
+        // Vibrate if mobile
+        if (navigator.vibrate) navigator.vibrate(100);
+        
+        // Temporarily pause UI to show loading
+        resultPanel.className = 'scanner-status idle';
+        resultPanel.textContent = 'Validando código...';
+        
+        try {
+            const response = await fetch('/scanner/validate', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'X-API-Key': 'default-scanner-secret-key-2026' // API Key set in environment/dec
+                },
+                body: JSON.stringify({ qr_code: decodedText })
+            });
+
+            const data = await response.json();
+            showResult(data);
+        } catch (error) {
+            console.error("Validation error:", error);
+            resultPanel.className = 'scanner-status error';
+            resultPanel.textContent = 'Error de conexión con el servidor.';
+        }
+    };
+
+    const showResult = (data) => {
+        resultPanel.className = `scanner-status ${data.status}`;
+        resultPanel.textContent = data.message;
+
+        // Update last scan details
+        lastScanPanel.style.display = 'block';
+        noScanMsg.style.display = 'none';
+        
+        document.getElementById('scan-name').textContent = data.user_name || 'Desconocido';
+        document.getElementById('scan-company').textContent = data.company || 'Visitante';
+        document.getElementById('scan-avatar').textContent = (data.user_name || '?')[0].toUpperCase();
+        
+        const badge = document.getElementById('scan-badge');
+        if (data.status === 'success') {
+            badge.innerHTML = '<span class="badge badge-success">PERMITIDO</span>';
+        } else {
+            badge.innerHTML = '<span class="badge badge-danger">DENEGADO</span>';
+        }
+
+        // Reset panel after 3 seconds
+        setTimeout(() => {
+            if (isScanning) {
+                resultPanel.className = 'scanner-status idle';
+                resultPanel.textContent = 'Esperando escaneo...';
+            }
+        }, 3000);
+    };
+
+    btnStart.onclick = startScanner;
+    btnStop.onclick = stopScanner;
+    scannerOverlay.onclick = startScanner;
+});
+</script>
+<style>
+    /* Fix for html5-qrcode UI artifacts */
+    #reader video {
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #reader__scan_region {
+        background: #000 !important;
+    }
+</style>
+{% endblock %}

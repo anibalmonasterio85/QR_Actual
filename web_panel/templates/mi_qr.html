@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Mi Código QR - QR Access Control PRO{% endblock %}
+{% block page_title %}Mi Código QR{% endblock %}
+
+{% block content %}
+<div style="max-width: 600px; margin: 0 auto;">
+    <div class="card slide-up" style="text-align: center; padding: 40px;">
+        <div style="font-size: 2.5rem; margin-bottom: 12px;"><svg width="48" height="48" fill="none" stroke="url(#gradient)" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 002.25-2.25V5.25a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v15a2.25 2.25 0 002.25 2.25z" /></svg></div>
+        <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 4px;">{{ session.get('user_nombre', 'Usuario') }}</h2>
+        <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 24px;">{{ session.get('user_correo', '') }}</p>
+
+        {% if qr_image_url %}
+        <div style="background: white; display: inline-block; padding: 20px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 8px 30px var(--shadow-color);">
+            <img src="{{ qr_image_url }}" alt="Tu código QR" style="width: 250px; height: 250px; display: block;">
+        </div>
+
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 20px;">
+            Presenta este código QR en el punto de acceso para ingresar.
+        </p>
+
+        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+            <a href="{{ qr_image_url }}" download="mi_qr_{{ session.get('user_nombre', 'code') }}.png" class="btn btn-primary">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" /></svg> Descargar QR
+            </a>
+            <a href="{{ url_for('dashboard.regenerar_mi_qr') }}" class="btn btn-outline" onclick="return confirm('¿Regenerar tu QR? El anterior dejará de funcionar.')">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" /></svg> Regenerar
+            </a>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-icon"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg></div>
+            <p>No tienes un código QR asignado.</p>
+            <a href="{{ url_for('dashboard.regenerar_mi_qr') }}" class="btn btn-primary" style="margin-top: 16px;">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" /></svg> Generar QR
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="card slide-up" style="margin-top: 20px; animation-delay: 0.2s;">
+        <div class="chart-title" style="margin-bottom: 12px;"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="display:inline;vertical-align:middle;margin-right:6px;"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125z" /></svg> Mis Últimos Accesos</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Resultado</th>
+                    <th>Fecha/Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if my_logs %}
+                    {% for log in my_logs %}
+                    <tr>
+                        <td>
+                            {% if log.resultado == 'permitido' %}
+                                <span class="badge badge-success">✓ PERMITIDO</span>
+                            {% else %}
+                                <span class="badge badge-danger">✗ DENEGADO</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ log.fecha_hora.strftime('%d/%m/%Y %H:%M') if log.fecha_hora else '-' }}</td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="2">
+                            <div class="empty-state" style="padding: 30px;">
+                                <p style="font-size: 0.85rem;">No hay accesos registrados.</p>
+                            </div>
+                        </td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
