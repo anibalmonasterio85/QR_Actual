@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Mi Código QR - QR Access Control PRO{% endblock %}
+{% block page_title %}Mi Código QR{% endblock %}
+
+{% block content %}
+<div style="max-width: 600px; margin: 0 auto;">
+    <div class="card slide-up" style="text-align: center; padding: 40px;">
+        <div style="margin-bottom: 12px; display: flex; justify-content: center;">
+            <i data-lucide="qr-code" style="width: 48px; height: 48px; color: var(--accent-primary);"></i>
+        </div>
+        <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 4px;">{{ session.get('user_nombre', 'Usuario') }}</h2>
+        <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 24px;">{{ session.get('user_correo', '') }}</p>
+
+        {% if qr_image_url %}
+        <div style="background: white; display: inline-block; padding: 20px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 8px 30px var(--shadow-color);">
+            <img src="{{ qr_image_url }}" alt="Tu código QR" style="width: 250px; height: 250px; display: block;">
+        </div>
+
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 20px;">
+            Presenta este código QR en el punto de acceso para ingresar.
+        </p>
+
+        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+            <a href="{{ qr_image_url }}" download="mi_qr_{{ session.get('user_nombre', 'code') }}.png" class="btn btn-primary">
+                <i data-lucide="download"></i> Descargar QR
+            </a>
+            <a href="{{ url_for('dashboard.regenerar_mi_qr') }}" class="btn btn-outline" onclick="return confirm('¿Regenerar tu QR? El anterior dejará de funcionar.')">
+                <i data-lucide="refresh-cw"></i> Regenerar
+            </a>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-icon"><i data-lucide="alert-triangle" style="width: 100%; height: 100%;"></i></div>
+            <p>No tienes un código QR asignado.</p>
+            <a href="{{ url_for('dashboard.regenerar_mi_qr') }}" class="btn btn-primary" style="margin-top: 16px;">
+                <i data-lucide="plus-circle"></i> Generar QR
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="card slide-up" style="margin-top: 20px; animation-delay: 0.2s;">
+        <div class="chart-title" style="margin-bottom: 12px;"><i data-lucide="list"></i> Mis Últimos Accesos</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Resultado</th>
+                    <th>Fecha/Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if my_logs %}
+                    {% for log in my_logs %}
+                    <tr>
+                        <td>
+                            {% if log.resultado == 'permitido' %}
+                                <span class="badge badge-success"><i data-lucide="check"></i> PERMITIDO</span>
+                            {% else %}
+                                <span class="badge badge-danger"><i data-lucide="x"></i> DENEGADO</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ log.fecha_hora.strftime('%d/%m/%Y %H:%M') if log.fecha_hora else '-' }}</td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="2">
+                            <div class="empty-state" style="padding: 30px;">
+                                <p style="font-size: 0.85rem;">No hay accesos registrados.</p>
+                            </div>
+                        </td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

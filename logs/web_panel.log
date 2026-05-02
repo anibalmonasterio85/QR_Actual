@@ -1,0 +1,766 @@
+[2026-03-13 18:39:25] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-03-13 18:39:25] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:39:28] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-03-13 18:39:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:43:13] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:43:13] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:43:16] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:43:16] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:46:18] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:46:18] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:46:20] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:46:20] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:46:55] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:46:55] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:46:58] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'departamento' in 'field list'
+[2026-03-13 18:46:58] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:48:01] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:48:01] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:48:03] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:48:03] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:53:27] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:53:27] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:53:29] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:53:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:57:52] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:57:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 18:57:54] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 18:57:54] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:01:38] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 19:01:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:01:39] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 19:01:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:04:41] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 19:04:41] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:04:43] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'telefono' in 'field list'
+[2026-03-13 19:04:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:11:27] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-03-13 19:11:27] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:11:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:16:03] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:16:05] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:16:22] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:16:23] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:24:10] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:24:10] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:24:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:24:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:26:26] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:26:26] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:28:35] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:28:35] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:29:27] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:29:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:30:10] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:30:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:40:48] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:40:50] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:49:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:49:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:49:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:49:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:49:28] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:49:28] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:49:28] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 19:49:28] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 19:49:36] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:36] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:36] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:36] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:38] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:38] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:38] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:38] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:41] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 19:49:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:41] "[36mGET /static/qrcodes/qr_61oKQAaO0bShyQLc.png HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:42] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:42] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:43] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:43] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:43] "GET /login HTTP/1.1" 200 -
+[2026-03-13 19:49:43] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:43] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:43] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:44] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:44] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:44] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:44] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 19:49:47] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-13 19:49:47] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:47] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:49] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:49] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 19:49:49] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:49] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:49] "[36mGET /static/qrcodes/qr_llrlvjYJ2uiiWGra.png HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:49] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:50] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:52] INFO in dashboard: User 1 regenerated their QR code
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "GET /static/qrcodes/qr_S3S-vFKN6CsjB8uA.png HTTP/1.1" 200 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:49:52] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:52] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:49:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:49:54] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-13 19:50:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:06] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 19:50:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:50:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:06] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:50:10] INFO in _internal:  * Detected change in 'C:\\QR_Access_PRO\\web_panel\\routes\\auth.py', reloading
+[2026-03-13 19:50:11] INFO in _internal:  * Detected change in 'C:\\QR_Access_PRO\\web_panel\\routes\\auth.py', reloading
+[2026-03-13 19:50:11] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:50:11] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:50:11] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:50:11] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 19:50:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:50:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:50:12] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:50:12] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 19:50:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:18] "[32mGET /admin/usuarios/4/eliminar HTTP/1.1[0m" 302 -
+[2026-03-13 19:50:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:18] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 19:50:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:50:19] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:19] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:50:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:21] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:50:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 19:50:22] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:22] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 19:50:22] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 19:50:22] "GET / HTTP/1.1" 200 -
+[2026-03-13 19:54:36] INFO in _internal:  * Detected change in 'C:\\QR_Access_PRO\\web_panel\\models\\access_log.py', reloading
+[2026-03-13 19:54:36] INFO in _internal:  * Detected change in 'C:\\QR_Access_PRO\\web_panel\\models\\access_log.py', reloading
+[2026-03-13 19:54:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:54:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:54:38] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-03-13 19:54:38] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-03-13 19:54:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:54:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 19:54:38] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:54:38] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 19:54:38] WARNING in _internal:  * Debugger is active!
+[2026-03-13 19:54:38] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 20:19:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:35] INFO in email_service: ✅ Test email sent to anibalmonasterio85@gmail.com
+[2026-03-13 20:19:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:48] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 20:19:48] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 20:19:48] INFO in _internal:  * Restarting with stat
+[2026-03-13 20:19:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:19:49] WARNING in _internal:  * Debugger is active!
+[2026-03-13 20:19:49] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 20:20:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:20:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:20:03] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 20:20:03] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 20:20:03] INFO in _internal:  * Restarting with stat
+[2026-03-13 20:20:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:20:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:20:04] WARNING in _internal:  * Debugger is active!
+[2026-03-13 20:20:04] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 20:21:31] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:31] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:35] INFO in email_service: ✅ Test email sent to anibalmonasterio85@gmail.com
+[2026-03-13 20:21:50] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:50] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:51] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 20:21:51] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 20:21:51] INFO in _internal:  * Restarting with stat
+[2026-03-13 20:21:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:21:52] WARNING in _internal:  * Debugger is active!
+[2026-03-13 20:21:52] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 20:22:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:05] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:07] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:07] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:07] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:10] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:22:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:10] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:10] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:17] "[32mGET /admin/usuarios/6/eliminar HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:17] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:22:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:18] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:23] "[32mGET /admin/usuarios/3/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:23] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:22:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:24] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:25] "[32mGET /admin/usuarios/5/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:25] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:22:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:26] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:26] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:26] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:45] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:22:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:45] "[36mGET /static/qrcodes/qr_S3S-vFKN6CsjB8uA.png HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:46] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:22:54] INFO in email_service: ✅ QR email sent successfully to anibalmonas124@gmail.com
+[2026-03-13 20:22:54] INFO in dashboard: QR email sent=True for user 1
+[2026-03-13 20:22:54] INFO in dashboard: User 1 regenerated their QR code
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "GET /static/qrcodes/qr_krIwkjVrP2i2R9Mz.png HTTP/1.1" 200 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:22:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:22:54] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:23:11] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:11] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:23:11] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:11] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:12] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "[32mGET /admin/usuarios/5/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:14] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:23:31] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:31] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-13 20:23:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:41] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-13 20:23:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:45] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:23:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:45] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:46] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:23:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:23:58] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:24:02] INFO in user: Auth: success for: anibal.monasterio@inacapmail.cl
+[2026-03-13 20:24:02] INFO in auth: Login exitoso: anibal.monasterio@inacapmail.cl
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:02] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:02] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "GET /static/qrcodes/qr_FgqIeeT-Wlk42guJ.png HTTP/1.1" 200 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:10] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:24:18] INFO in email_service: ✅ QR email sent successfully to anibal.monasterio@inacapmail.cl
+[2026-03-13 20:24:18] INFO in dashboard: QR email sent=True for user 5
+[2026-03-13 20:24:18] INFO in dashboard: User 5 regenerated their QR code
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "GET /static/qrcodes/qr_Sc47WM18zX0MyZVw.png HTTP/1.1" 200 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:18] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:18] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:28] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:28] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:24:29] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:24:29] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:25:45] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-13 20:25:45] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-13 20:25:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:25:45] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:45] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:25:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:25:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:25:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:25:46] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:46] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:25:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:47] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:25:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:25:47] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:25:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:48] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:25:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:25:48] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:39:39] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-03-13 20:39:39] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-03-13 20:39:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:39:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:47:07] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:47:07] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:47:08] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 20:47:08] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 20:47:08] INFO in _internal:  * Restarting with stat
+[2026-03-13 20:47:10] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:47:10] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:47:10] WARNING in _internal:  * Debugger is active!
+[2026-03-13 20:47:10] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 20:47:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:10] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:47:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:10] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:10] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-13 20:47:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:12] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:12] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:47:13] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-13 20:47:13] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-13 20:47:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:13] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:47:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:14] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:14] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:47:16] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:16] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:47:16] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:16] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:17] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:17] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:17] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:47:30] INFO in email_service: ✅ QR email sent successfully to anibal.monasterio@inacapmail.cl
+[2026-03-13 20:47:30] INFO in admin: Admin regenerated QR for user 5, email_sent=True
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "[32mPOST /admin/usuarios/5/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:30] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:50] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:50] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:47:54] INFO in user: Auth: success for: anibal.monasterio@inacapmail.cl
+[2026-03-13 20:47:54] INFO in auth: Login exitoso: anibal.monasterio@inacapmail.cl
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "GET /static/qrcodes/qr_fMNY5lkh50i651wu.png HTTP/1.1" 200 -
+[2026-03-13 20:47:54] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:47:55] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:55] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:55] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:47:55] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:47:55] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:48:04] INFO in email_service: ✅ QR email sent successfully to anibal.monasterio@inacapmail.cl
+[2026-03-13 20:48:04] INFO in dashboard: QR email sent=True for user 5
+[2026-03-13 20:48:04] INFO in dashboard: User 5 regenerated their QR code
+[2026-03-13 20:48:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:04] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:04] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:48:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:04] "GET /static/qrcodes/qr_h-u3bv5urWBixLnd.png HTTP/1.1" 200 -
+[2026-03-13 20:48:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:05] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:05] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:05] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:48:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:24] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:48:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:25] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:25] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:25] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:48:29] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-13 20:48:29] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-13 20:48:29] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:30] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:48:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:30] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:30] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:48:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:48] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-13 20:48:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:48] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:48] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:48] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:48:49] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:49] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-13 20:48:55] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:55] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-13 20:48:57] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:57] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 20:48:57] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:57] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:57] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:57] "[36mGET /static/qrcodes/qr_krIwkjVrP2i2R9Mz.png HTTP/1.1[0m" 304 -
+[2026-03-13 20:48:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:58] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:48:58] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:48:58] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:49:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 20:49:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:05] "GET /login HTTP/1.1" 200 -
+[2026-03-13 20:49:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:49:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:49:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:49:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:06] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 20:49:06] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:49:06] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-13 20:52:41] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-13 20:52:41] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-13 20:52:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-13 20:52:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:41] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:52:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 20:52:41] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 20:52:44] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 20:52:44] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 20:52:44] "GET / HTTP/1.1" 200 -
+[2026-03-13 20:57:31] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:57:31] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:57:32] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 20:57:32] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 20:57:32] INFO in _internal:  * Restarting with stat
+[2026-03-13 20:57:33] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:57:33] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 20:57:33] WARNING in _internal:  * Debugger is active!
+[2026-03-13 20:57:33] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 21:03:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 21:03:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 21:03:53] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-13 21:03:53] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-13 21:03:53] INFO in _internal:  * Restarting with stat
+[2026-03-13 21:03:54] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 21:03:54] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-13 21:03:54] WARNING in _internal:  * Debugger is active!
+[2026-03-13 21:03:54] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-13 21:04:04] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:04] "GET / HTTP/1.1" 200 -
+[2026-03-13 21:04:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:05] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:07] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:07] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:07] "GET / HTTP/1.1" 200 -
+[2026-03-13 21:04:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:12] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 21:04:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:12] "[36mGET /static/qrcodes/qr_krIwkjVrP2i2R9Mz.png HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:12] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:13] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:13] "GET / HTTP/1.1" 200 -
+[2026-03-13 21:04:21] INFO in email_service: ✅ QR email sent successfully to anibalmonas124@gmail.com
+[2026-03-13 21:04:21] INFO in dashboard: QR email sent=True for user 1
+[2026-03-13 21:04:21] INFO in dashboard: User 1 regenerated their QR code
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "GET /static/qrcodes/qr_H9zFc8HZ6osSXdUW.png HTTP/1.1" 200 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:21] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:21] "GET / HTTP/1.1" 200 -
+[2026-03-13 21:04:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:23] "GET /login HTTP/1.1" 200 -
+[2026-03-13 21:04:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:23] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-13 21:04:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-13 21:04:24] INFO in _internal: 127.0.0.1 - - [13/Mar/2026 21:04:24] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 18:48:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 18:48:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 18:48:48] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-18 18:48:48] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-18 18:48:48] INFO in _internal:  * Restarting with stat
+[2026-03-18 18:48:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 18:48:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 18:48:51] WARNING in _internal:  * Debugger is active!
+[2026-03-18 18:48:51] INFO in _internal:  * Debugger PIN: 108-178-346
+[2026-03-18 18:49:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:05] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:05] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 18:49:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:05] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-18 18:49:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:05] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-18 18:49:07] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:07] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:07] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:07] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:07] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 18:49:08] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-18 18:49:08] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-18 18:49:08] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:08] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:08] "GET / HTTP/1.1" 200 -
+[2026-03-18 18:49:08] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:08] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:09] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:09] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:09] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:09] "GET / HTTP/1.1" 200 -
+[2026-03-18 18:49:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:14] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 18:49:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:14] "GET / HTTP/1.1" 200 -
+[2026-03-18 18:49:26] INFO in email_service: ✅ QR email sent successfully to anibal.monasterio@inacapmail.cl
+[2026-03-18 18:49:26] INFO in admin: Admin regenerated QR for user 5, email_sent=True
+[2026-03-18 18:49:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:26] "[32mPOST /admin/usuarios/5/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:26] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 18:49:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:27] "GET / HTTP/1.1" 200 -
+[2026-03-18 18:49:41] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:41] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 18:49:41] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 18:49:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 18:49:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 18:49:42] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:13:18] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:13:18] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:13:19] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-18 20:13:19] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-18 20:13:19] INFO in _internal:  * Restarting with stat
+[2026-03-18 20:13:22] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:13:22] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:13:22] WARNING in _internal:  * Debugger is active!
+[2026-03-18 20:13:22] INFO in _internal:  * Debugger PIN: 597-524-531
+[2026-03-18 20:13:23] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:23] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:13:23] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:23] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-18 20:13:23] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:23] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-18 20:13:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:26] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:13:33] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:33] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:33] "GET /login HTTP/1.1" 200 -
+[2026-03-18 20:13:33] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:33] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:34] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:34] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:34] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:34] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:34] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:34] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 20:13:38] INFO in user: Auth: success for: anibal.monasterio@inacapmail.cl
+[2026-03-18 20:13:38] INFO in auth: Login exitoso: anibal.monasterio@inacapmail.cl
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "GET /static/qrcodes/qr_wHK6PUsH_xSHj1WJ.png HTTP/1.1" 200 -
+[2026-03-18 20:13:38] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:39] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:39] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:13:47] INFO in email_service: ✅ QR email sent successfully to anibal.monasterio@inacapmail.cl
+[2026-03-18 20:13:47] INFO in dashboard: QR email sent=True for user 5
+[2026-03-18 20:13:47] INFO in dashboard: User 5 regenerated their QR code
+[2026-03-18 20:13:47] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:47] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:47] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:47] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:13:47] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:47] "GET /static/qrcodes/qr_6A3wKwZsMWWwp4ss.png HTTP/1.1" 200 -
+[2026-03-18 20:13:47] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:47] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:48] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:48] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:48] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:48] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:48] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:48] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "GET /login HTTP/1.1" 200 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:49] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:49] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 20:13:52] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-18 20:13:52] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-18 20:13:52] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:52] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:52] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:13:53] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:53] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:53] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:53] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:53] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:13:54] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:54] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:54] "GET /login HTTP/1.1" 200 -
+[2026-03-18 20:13:54] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:54] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:13:55] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:55] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:55] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:55] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:13:55] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:13:55] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 20:14:04] INFO in user: Auth: success for: anibalmj090@gmail.com
+[2026-03-18 20:14:04] INFO in auth: Login exitoso: anibalmj090@gmail.com
+[2026-03-18 20:14:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:04] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:14:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:06] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:06] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:06] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:14:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:14] "GET /login HTTP/1.1" 200 -
+[2026-03-18 20:14:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:14] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:15] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:15] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:15] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 20:14:18] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-18 20:14:18] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-18 20:14:18] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:18] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:18] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:14:18] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:18] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:14:19] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:19] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:14:19] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:14:19] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:16] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:51:16] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:51:17] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-18 20:51:17] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-18 20:51:17] INFO in _internal:  * Restarting with stat
+[2026-03-18 20:51:19] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:51:19] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:51:19] WARNING in _internal:  * Debugger is active!
+[2026-03-18 20:51:19] INFO in _internal:  * Debugger PIN: 597-524-531
+[2026-03-18 20:51:22] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:22] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:23] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:23] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-18 20:51:23] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:23] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-18 20:51:25] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:25] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:25] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:27] "GET /login HTTP/1.1" 200 -
+[2026-03-18 20:51:28] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:28] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:28] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:28] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:28] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:28] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:28] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:28] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-18 20:51:35] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-18 20:51:35] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-18 20:51:35] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:35] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:35] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:35] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:35] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:36] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:36] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:36] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:42] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-18 20:51:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:51] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:51:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:51] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:51:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:51] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:51:53] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:53] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-18 20:51:55] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:55] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-18 20:51:59] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:59] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:51:59] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:59] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:51:59] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:51:59] "GET /static/qrcodes/qr_H9zFc8HZ6osSXdUW.png HTTP/1.1" 200 -
+[2026-03-18 20:52:00] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:00] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:00] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:00] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:52:02] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:02] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:52:02] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:02] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:02] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:02] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:02] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:52:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:04] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:52:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:05] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:05] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:52:15] INFO in email_service: ✅ QR email sent successfully to anibalmj090@gmail.com
+[2026-03-18 20:52:15] INFO in admin: Admin regenerated QR for user 3, email_sent=True
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "[32mPOST /admin/usuarios/3/regenerar-qr HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:15] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:15] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:52:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:26] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:52:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:26] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:52:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:52:27] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:52:27] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:53:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:51] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:53:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:53:51] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:53:52] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:52] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:53:52] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:52] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:53:56] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:56] "GET /admin/reportes/accesos?formato=pdf HTTP/1.1" 200 -
+[2026-03-18 20:53:57] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:57] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-18 20:53:57] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:53:57] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:57] "[36mGET /static/qrcodes/qr_H9zFc8HZ6osSXdUW.png HTTP/1.1[0m" 304 -
+[2026-03-18 20:53:57] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:53:58] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:58] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:53:58] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:53:58] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:54:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:54:04] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:54:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:54:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:54:04] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:54:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:54:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:54:05] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:54:05] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:54:05] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:56:25] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:56:25] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:56:26] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-18 20:56:26] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-18 20:56:26] INFO in _internal:  * Restarting with stat
+[2026-03-18 20:56:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:56:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-18 20:56:28] WARNING in _internal:  * Debugger is active!
+[2026-03-18 20:56:28] INFO in _internal:  * Debugger PIN: 597-524-531
+[2026-03-18 20:56:29] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:29] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:56:29] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:29] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-18 20:56:29] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:56:30] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:56:30] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:30] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:56:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:39] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-03-18 20:56:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:56:39] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:56:40] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:40] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:56:40] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:40] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:56:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:42] "GET / HTTP/1.1" 200 -
+[2026-03-18 20:56:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-18 20:56:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-18 20:56:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-18 20:56:42] INFO in _internal: 127.0.0.1 - - [18/Mar/2026 20:56:42] "GET / HTTP/1.1" 200 -
+[2026-03-19 20:01:18] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-19 20:01:18] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-19 20:01:19] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.211:5000
+[2026-03-19 20:01:19] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-19 20:01:19] INFO in _internal:  * Restarting with stat
+[2026-03-19 20:01:20] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-19 20:01:20] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-19 20:01:20] WARNING in _internal:  * Debugger is active!
+[2026-03-19 20:01:20] INFO in _internal:  * Debugger PIN: 107-447-445
+[2026-03-19 20:01:20] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:20] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:20] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:20] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-19 20:01:20] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:20] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-19 20:01:20] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:20] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-19 20:01:22] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:22] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:22] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:22] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:22] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:22] "GET /login?next=http://127.0.0.1:5000/ HTTP/1.1" 200 -
+[2026-03-19 20:01:28] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-03-19 20:01:28] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-03-19 20:01:28] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:28] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:28] "GET / HTTP/1.1" 200 -
+[2026-03-19 20:01:28] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-19 20:01:28] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-19 20:01:29] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:29] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:29] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:29] "GET / HTTP/1.1" 200 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "GET /mi-qr HTTP/1.1" 200 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "GET /static/qrcodes/qr_H9zFc8HZ6osSXdUW.png HTTP/1.1" 200 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:37] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:37] "GET / HTTP/1.1" 200 -
+[2026-03-19 20:01:39] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-19 20:01:39] INFO in _internal: 127.0.0.1 - - [19/Mar/2026 20:01:39] "GET / HTTP/1.1" 200 -
+[2026-03-25 00:38:01] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-25 00:38:01] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-25 00:38:02] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.209:5000
+[2026-03-25 00:38:02] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-03-25 00:38:02] INFO in _internal:  * Restarting with stat
+[2026-03-25 00:38:05] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-25 00:38:05] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-03-25 00:38:05] WARNING in _internal:  * Debugger is active!
+[2026-03-25 00:38:05] INFO in _internal:  * Debugger PIN: 107-447-445
+[2026-03-25 00:38:11] INFO in _internal: 127.0.0.1 - - [25/Mar/2026 00:38:11] "GET / HTTP/1.1" 200 -
+[2026-03-25 00:38:11] INFO in _internal: 127.0.0.1 - - [25/Mar/2026 00:38:11] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-03-25 00:38:11] INFO in _internal: 127.0.0.1 - - [25/Mar/2026 00:38:11] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-03-25 00:38:12] INFO in _internal: 127.0.0.1 - - [25/Mar/2026 00:38:12] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-03-25 00:38:12] INFO in _internal: 127.0.0.1 - - [25/Mar/2026 00:38:12] "GET / HTTP/1.1" 200 -

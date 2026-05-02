@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QR Access Control PRO - Sistema integral de control de acceso por códigos QR">
+    <title>{% block title %}QR Access Control PRO{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    {% block body %}
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <!-- SVG gradient definition for the logo -->
+                    <svg width="0" height="0" style="position:absolute">
+                        <defs>
+                            <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ff5e00" />
+                                <stop offset="100%" stop-color="#ff8c00" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <i data-lucide="shield-check" class="logo-icon-svg"></i>
+                    QR Access PRO
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                {% set rol = session.get('user_rol', '') %}
+
+                <!-- ── Principal (visible para admin y guardia) ─────────── -->
+                {% if rol in ('admin', 'guardia') %}
+                <div class="nav-section">
+                    <div class="nav-section-title">Principal</div>
+                    <a href="{{ url_for('dashboard.index') }}" class="nav-item {% if request.endpoint == 'dashboard.index' %}active{% endif %}">
+                        <span class="nav-icon"><i data-lucide="layout-dashboard"></i></span> Dashboard
+                    </a>
+                </div>
+                {% endif %}
+
+                <!-- ── Administración (solo admin) ──────────────────────── -->
+                {% if rol == 'admin' %}
+                <div class="nav-section">
+                    <div class="nav-section-title">Administración</div>
+                    <a href="{{ url_for('admin.usuarios') }}" class="nav-item {% if request.endpoint and 'admin' in request.endpoint %}active{% endif %}">
+                        <span class="nav-icon"><i data-lucide="users"></i></span> Usuarios
+                    </a>
+                    <a href="{{ url_for('admin.reporte_accesos', formato='pdf') }}" class="nav-item">
+                        <span class="nav-icon"><i data-lucide="file-text"></i></span> Reportes
+                    </a>
+                </div>
+                {% endif %}
+
+                <!-- ── Mi Cuenta (todos los roles autenticados) ─────────── -->
+                <div class="nav-section">
+                    <div class="nav-section-title">Mi Cuenta</div>
+                    <a href="{{ url_for('dashboard.mi_qr') }}" class="nav-item {% if request.endpoint == 'dashboard.mi_qr' %}active{% endif %}">
+                        <span class="nav-icon"><i data-lucide="smartphone"></i></span> Mi QR
+                    </a>
+                </div>
+
+                <!-- ── Sesión ────────────────────────────────────────────── -->
+                <div class="nav-section">
+                    <div class="nav-section-title">Cuenta</div>
+                    <a href="{{ url_for('auth.logout') }}" class="nav-item">
+                        <span class="nav-icon"><i data-lucide="log-out"></i></span> Cerrar Sesión
+                    </a>
+                </div>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-card">
+                    <div class="user-avatar">{{ session.get('user_nombre', 'U')[0]|upper }}</div>
+                    <div class="user-info">
+                        <div class="user-name">{{ session.get('user_nombre', 'Usuario') }}</div>
+                        <div class="user-role">{{ session.get('user_rol', 'usuario') }}</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main -->
+        <div class="main-content">
+            <!-- Topbar -->
+            <header class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-toggle" onclick="toggleSidebar()"><i data-lucide="menu"></i></button>
+                    <h1 class="page-title">{% block page_title %}Dashboard{% endblock %}</h1>
+                </div>
+                <div class="topbar-right">
+                    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Cambiar tema">
+                        <i data-lucide="sun-moon" id="themeIcon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Flash Messages -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                <div class="flash-msg {{ category }} slide-down">
+                    {% if category == 'success' %}<i data-lucide="check-circle"></i>
+                    {% elif category == 'danger' %}<i data-lucide="alert-circle"></i>
+                    {% elif category == 'warning' %}<i data-lucide="alert-triangle"></i>
+                    {% else %}<i data-lucide="info"></i>{% endif %}
+                    {{ message }}
+                    <button class="close-flash" onclick="closeFlash(this)"><i data-lucide="x"></i></button>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endwith %}
+
+            <!-- Page Content -->
+            <div class="page-content fade-in">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+    <script>
+        // Initialize Lucide Icons
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+
+{% block title %}Gestión de Usuarios - QR Access Control PRO{% endblock %}
+{% block page_title %}Gestión de Usuarios{% endblock %}
+
+{% block content %}
+<!-- Actions Bar -->
+<div class="actions-bar">
+    <form method="GET" class="search-box">
+        <span class="search-icon"><i data-lucide="search"></i></span>
+        <input type="text" name="search" placeholder="Buscar por nombre o correo..." value="{{ search }}">
+    </form>
+    <div class="filter-group">
+        <form method="GET" style="display: flex; gap: 8px;">
+            <input type="hidden" name="search" value="{{ search }}">
+            <select name="rol" class="form-control" style="width: 140px; padding: 8px 12px;" onchange="this.form.submit()">
+                <option value="">Todos los roles</option>
+                <option value="admin" {% if rol_filter == 'admin' %}selected{% endif %}>Admin</option>
+                <option value="guardia" {% if rol_filter == 'guardia' %}selected{% endif %}>Guardia</option>
+                <option value="usuario" {% if rol_filter == 'usuario' %}selected{% endif %}>Usuario</option>
+            </select>
+            <select name="activo" class="form-control" style="width: 130px; padding: 8px 12px;" onchange="this.form.submit()">
+                <option value="">Todos</option>
+                <option value="1" {% if activo_filter == '1' %}selected{% endif %}>Activos</option>
+                <option value="0" {% if activo_filter == '0' %}selected{% endif %}>Inactivos</option>
+            </select>
+        </form>
+        <button class="btn btn-primary" onclick="openModal('createUserModal')"><i data-lucide="plus"></i> Nuevo Usuario</button>
+    </div>
+</div>
+
+<!-- Users Table -->
+<div class="table-container slide-up">
+    <div class="table-header">
+        <span class="table-title"><i data-lucide="users"></i> Usuarios ({{ usuarios|length }})</span>
+        <div style="display: flex; gap: 8px;">
+            <a href="{{ url_for('admin.reporte_accesos', formato='pdf') }}" class="btn btn-outline btn-sm"><i data-lucide="file-text"></i> Reporte PDF</a>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Rol</th>
+                <th>Departamento</th>
+                <th>Estado</th>
+                <th>QR</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if usuarios %}
+                {% for u in usuarios %}
+                <tr>
+                    <td>{{ u.id }}</td>
+                    <td><strong>{{ u.nombre }}</strong></td>
+                    <td>{{ u.correo }}</td>
+                    <td>
+                        {% if u.rol == 'admin' %}
+                            <span class="badge badge-admin"><i data-lucide="shield"></i> Admin</span>
+                        {% elif u.rol == 'visitante' %}
+                            <span class="badge badge-warning"><i data-lucide="user"></i> Visitante</span>
+                        {% else %}
+                            <span class="badge badge-info"><i data-lucide="user"></i> Usuario</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ u.departamento or '-' }}</td>
+                    <td>
+                        {% if u.activo %}
+                            <span class="badge badge-success"><i data-lucide="check-circle-2"></i> Activo</span>
+                        {% else %}
+                            <span class="badge badge-danger"><i data-lucide="alert-circle"></i> Inactivo</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if u.qr_code %}
+                            <a href="{{ url_for('admin.ver_qr', user_id=u.id) }}" class="btn btn-outline btn-sm btn-icon" title="Ver QR" target="_blank"><i data-lucide="qr-code"></i></a>
+                        {% else %}
+                            <span style="color: var(--text-muted);">-</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <div style="display: flex; gap: 4px; align-items: center;">
+                            <!-- Edit: opens modal via JS (POST on submit) -->
+                            <button class="btn btn-outline btn-sm btn-icon" title="Editar"
+                                    onclick="editUser({{ u.id }}, '{{ u.nombre|e }}', '{{ u.correo|e }}', '{{ u.rol }}', '{{ u.departamento|default('', true)|e }}', '{{ u.telefono|default('', true)|e }}')">
+                                <i data-lucide="edit-2"></i>
+                            </button>
+
+                            <!-- Toggle active: POST form -->
+                            <form method="POST" action="{{ url_for('admin.toggle_usuario', user_id=u.id) }}" style="display:inline; margin:0;">
+                                <button type="submit" class="btn btn-outline btn-sm btn-icon"
+                                        title="{% if u.activo %}Desactivar{% else %}Activar{% endif %}">
+                                    {% if u.activo %}<i data-lucide="lock"></i>{% else %}<i data-lucide="unlock"></i>{% endif %}
+                                </button>
+                            </form>
+
+                            <!-- Regenerar QR: POST form -->
+                            <form method="POST" action="{{ url_for('admin.regenerar_qr', user_id=u.id) }}" style="display:inline; margin:0;"
+                                  onsubmit="return confirm('¿Regenerar QR de {{ u.nombre|e }}? El código anterior dejará de funcionar.')">
+                                <button type="submit" class="btn btn-outline btn-sm btn-icon" title="Regenerar QR"><i data-lucide="refresh-cw"></i></button>
+                            </form>
+
+                            <!-- Eliminar: POST form via JS confirm -->
+                            <form method="POST" action="{{ url_for('admin.eliminar_usuario', user_id=u.id) }}"
+                                  id="deleteForm_{{ u.id }}" style="display:none;">
+                            </form>
+                            <button class="btn btn-outline btn-sm btn-icon" style="color: var(--danger);" title="Eliminar"
+                                    onclick="confirmDelete('{{ u.id }}', '{{ u.nombre|e }}')"><i data-lucide="trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td colspan="8">
+                        <div class="empty-state">
+                            <div class="empty-icon"><i data-lucide="users" style="width: 100%; height: 100%;"></i></div>
+                            <p>No hay usuarios registrados.</p>
+                        </div>
+                    </td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Create User Modal -->
+<div class="modal-overlay" id="createUserModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 class="modal-title"><i data-lucide="user-plus"></i> Crear Nuevo Usuario</h3>
+            <button class="modal-close" onclick="closeModal('createUserModal')"><i data-lucide="x"></i></button>
+        </div>
+        <form method="POST" action="{{ url_for('admin.crear_usuario') }}">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Nombre completo *</label>
+                    <input type="text" name="nombre" class="form-control" placeholder="Juan Pérez" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Correo electrónico *</label>
+                    <input type="email" name="correo" class="form-control" placeholder="juan@empresa.com" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Contraseña *</label>
+                    <input type="password" name="password" class="form-control" placeholder="Mínimo 6 caracteres" required minlength="6">
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div class="form-group">
+                        <label class="form-label">Rol</label>
+                        <select name="rol" class="form-control">
+                            <option value="usuario">Usuario</option>
+                            <option value="visitante">Visitante</option>
+                            <option value="admin">Administrador</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Departamento</label>
+                        <input type="text" name="departamento" class="form-control" placeholder="Ej: TI, RRHH...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Teléfono</label>
+                    <input type="tel" name="telefono" class="form-control" placeholder="+54 11 1234-5678">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" onclick="closeModal('createUserModal')">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Crear Usuario</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Edit User Modal -->
+<div class="modal-overlay" id="editUserModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 class="modal-title"><i data-lucide="edit-3"></i> Editar Usuario</h3>
+            <button class="modal-close" onclick="closeModal('editUserModal')"><i data-lucide="x"></i></button>
+        </div>
+        <form method="POST" id="editForm" action="">
+            <input type="hidden" id="editUserId" name="user_id">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Nombre completo</label>
+                    <input type="text" id="editNombre" name="nombre" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Correo electrónico</label>
+                    <input type="email" id="editCorreo" name="correo" class="form-control" required>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div class="form-group">
+                        <label class="form-label">Rol</label>
+                        <select id="editRol" name="rol" class="form-control">
+                            <option value="usuario">Usuario</option>
+                            <option value="visitante">Visitante</option>
+                            <option value="admin">Administrador</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Departamento</label>
+                        <input type="text" id="editDepartamento" name="departamento" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Teléfono</label>
+                    <input type="tel" id="editTelefono" name="telefono" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" onclick="closeModal('editUserModal')">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
